@@ -1,0 +1,8 @@
+{
+    "server": "server",
+    "port": "11111",
+    "topic": "homeassistant",
+    "devicename": "voltronic",
+    "username": "un",
+    "password": "pwd"
+}

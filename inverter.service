@@ -1,0 +1,12 @@
+[Unit]
+Description=Inverter poller
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/root/inverterService/entrypoint.sh
+WorkingDirectory=/root/inverterService
+
+[Install]
+WantedBy=multi-user.target
